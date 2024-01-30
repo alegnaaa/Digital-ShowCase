@@ -1,0 +1,165 @@
+@font-face {
+    font-family: tango;
+    src: url(texto/TangoSans.ttf) format('truetype');
+}
+
+    @font-face {
+    font-family: tangobold;
+    src: url(texto/TangoSans_Bold.ttf) format('truetype');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.barra{
+    background-color: #522bc7;
+    font-family: utendoreg;
+    font-size: 18px;
+    color:black
+}
+
+.slider{
+    height: 40rem;
+    background-image: url(images/imagenFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 65rem;
+    background-position: right;
+    align-items: flex-end;
+    font-family: utendoreg;
+    color: rgb(255, 255, 255);
+
+}
+
+.slider h1{
+    font-family: tangobold;
+    font-size: 100px;
+    margin: 30px;
+    text-align: left;
+    align-items: center;
+}
+
+.box1 {
+    background-color: rgb(0, 0, 0);
+    height: 35rem;
+    font-family: tango;
+    text-align: right;
+    align-items: center;
+    color: white;
+}
+
+.box h1{
+    margin: 20px;
+    font-family: tangobold;
+    font-size: 60px;
+    color: white;
+
+
+
+}
+
+.box1 p{
+    margin: 20px;
+    font-family: tangobold;
+    text-align: right;
+    font-size: 60px;
+    color: rgb(149, 95, 249);
+
+
+}
+
+.box2 {
+    background-image: url(images/301.jpeg);
+    background-size: 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+    height: 35rem;
+}
+
+.box3{
+    background-color: rgb(0, 0, 0);
+    height: 55rem;
+    background-image: url(images/halloFondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.box3 p{
+    font-family: tangobold;
+    font-size: 60px;
+    color: white;
+    margin: 30px;
+
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-family: tango;
+    font-size: 25px;
+    position: center;
+    align-items: center;
+
+}
+
+  
+
+.button{
+    align-items: center;
+    font-family: tango;
+    height: 3rem;
+    justify-content: center;
+    position: relative;
+}
+
+.box4{
+    padding: 7px;
+    background-color: rgb(0, 0, 0);
+    height: 72rem;
+}
+
+.card{
+    margin: 30px;
+    background-color: rgb(198, 187, 244);
+    font-family: tango;
+    font-size: 25px;
+    
+}
+
+.box5{
+    background-color: rgb(0, 0, 0);
+    height: 72rem;
+
+}
+.box6{
+    background-color: rgb(0, 0, 0);
+    height: 72rem;
+}
+
+
+.box6 p{
+    font-family: tangobold;
+    font-size: 70px;
+    color: rgb(193, 118, 246);
+    text-align: right;
+
+}
+
+.box7{
+    background-color: rgb(0, 0, 0);
+    height: 5rem;
+    text-align: right;
+    color: white;
+    font-family: tango;
+}
+
+
