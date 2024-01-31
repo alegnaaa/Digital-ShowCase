@@ -31,6 +31,7 @@ body {
     background-repeat: no-repeat;
     background-size: 65rem;
     background-position: right;
+    background-size: cover;
     align-items: flex-end;
     font-family: utendoreg;
     color: rgb(255, 255, 255);
