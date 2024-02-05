@@ -26,7 +26,7 @@ body {
 }
 
 .slider{
-    height: 40rem;
+    height: 38rem;
     background-image: url(images/imagenFondo.jpg);
     background-repeat: no-repeat;
     background-size: 65rem;
@@ -72,7 +72,6 @@ body {
     font-size: 60px;
     color: rgb(149, 95, 249);
 
-
 }
 
 .box2 {
@@ -81,7 +80,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(0, 0, 0);
-    height: 35rem;
+    align-items: center;
+    height: 55rem;
 }
 
 .box3{
@@ -109,6 +109,8 @@ body {
     font-size: 25px;
     position: center;
     align-items: center;
+    margin-left: 50px;
+    margin-right: -50px;
 
 }
 
@@ -162,5 +164,3 @@ body {
     color: white;
     font-family: tango;
 }
-
-
